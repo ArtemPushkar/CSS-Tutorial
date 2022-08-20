@@ -3,14 +3,25 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { MarkupComponent } from './markup/markup.component';
+import { MainComponent } from './markup/main/main.component';
+import { ContaktComponent } from './markup/contakt/contakt.component';
+import { RouterModule, Routes } from '@angular/router';
+const routes: Routes = [
+  {path: '', component: MainComponent},
+  {path: 'contact', component: ContaktComponent}
+]
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MarkupComponent,
+    MainComponent,
+    ContaktComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]

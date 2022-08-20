@@ -1,0 +1,50 @@
+
+
+.heading {
+    text-transform: uppercase;
+}
+
+#red {
+    color: burlywood;
+    font-size: medium;
+    border: 1px solid black;
+}
+
+li > span {
+    font-weight: bolder;
+}
+
+ul li p + p {
+    color: goldenrod;
+    font-size: large;
+}
+
+p {
+    color: olive;
+}
+
+q {
+    color: orange;
+}
+
+div {
+    color: orangered;
+}
+
+
+a:active{
+    color: rebeccapurple;
+}
+a:hover{
+    color: royalblue;
+}
+
+a:focus{
+    border: 1px;
+    font-weight: bolder;
+}
+
+.mark li:nth-child(odd){
+    color: orangered;
+    border: 1px solid green;
+}
