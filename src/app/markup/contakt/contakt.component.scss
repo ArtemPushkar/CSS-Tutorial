@@ -1,19 +1,37 @@
 
 body {
     padding: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .block {
     border: 1px solid red;
     max-width: 800px;
     margin: 0px auto;
-    height: 800px;
+    height: 1500px;
+    position: relative;
 }
-
-.block_1 {
-    background-color: rgb(150, 205, 150);
+.block div{
     line-height: 50px;
     font-size: 18px;
     font-weight: 700;
     text-align: center;
+}
+.block_1 {
+    background-color: rgb(150, 205, 150);
+    position: sticky;
+    top: 0;
+}
+
+.block_2 {
+    background-color: rgb(122, 136, 45);
+
+    position: sticky;
+    top: 0;
+}
+.block_3 {
+    background-color: rgb(170, 73, 73);
+
+    position: sticky;
+    top: 0;
 }
