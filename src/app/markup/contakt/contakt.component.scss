@@ -19,19 +19,17 @@ body {
 }
 .block_1 {
     background-color: rgb(150, 205, 150);
-    position: sticky;
+    position: absolute;
+    left: 0;
+    width: 50%;
     top: 0;
 }
 
 .block_2 {
     background-color: rgb(122, 136, 45);
-
-    position: sticky;
+    right: 0;
+    position: absolute;
+    width: 50%;
     top: 0;
 }
-.block_3 {
-    background-color: rgb(170, 73, 73);
 
-    position: sticky;
-    top: 0;
-}
