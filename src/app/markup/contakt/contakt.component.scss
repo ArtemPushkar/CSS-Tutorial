@@ -33,3 +33,13 @@ body {
     top: 0;
 }
 
+.overlay {
+    background-color: rgb(107, 107, 107);
+    position: absolute;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
