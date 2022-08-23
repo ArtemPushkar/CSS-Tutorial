@@ -1,6 +1,9 @@
-<p (click)="changeColor('')" [style.color]="mycolor">
+<p (click)="changeColor('red')" [style.color]="mycolor">
     contakt works!
 </p>
+
+<input type="text" (input)="changeColor($event.target.value)">
+
 <body>
     
 <!-- <div class="block">

@@ -12,7 +12,7 @@ export class ContaktComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  changeColor(color:any) {
+  changeColor(color: ) {
     this.mycolor = 'rgb(75, 65, 114)'
   }
 }
