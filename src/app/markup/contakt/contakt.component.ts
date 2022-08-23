@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contakt.component.scss']
 })
 export class ContaktComponent implements OnInit {
-
+  public mycolor = 'red';
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  changeColor(color:any) {
+    this.mycolor = 'blue'
+  }
 }
